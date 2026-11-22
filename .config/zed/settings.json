@@ -1,0 +1,65 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "markdown_preview_font_family": "FiraCode Nerd Font",
+  "markdown_preview_code_font_family": "FiraCode Nerd Font",
+  "title_bar": {
+    "show_branch_status_icon": true
+  },
+  "diagnostics": {
+    "button": true
+  },
+  "status_bar": {
+    "line_endings_button": true,
+    "cursor_position_button": true
+  },
+  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "ui_font_family": "Open Sans",
+  "proxy": "",
+  "calls": {
+    "mute_on_join": true
+  },
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    },
+    "blinking": "on",
+    "font_size": 14.0,
+    "cursor_shape": "bar",
+    "font_family": "FiraCode Nerd Font Mono",
+    "button": true,
+    "scrollbar": {
+      "show": "auto"
+    }
+  },
+  "active_pane_modifiers": {
+    "border_size": 0.0
+  },
+  "centered_layout": {
+    "left_padding": 0.2
+  },
+  "reduce_motion": "on",
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  "agent_ui_font_size": 16.0,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+  "ui_font_size": 16.0,
+  "buffer_font_size": 15,
+  "theme": "Catppuccin Mocha",
+  "window_decorations":"server"
+}
