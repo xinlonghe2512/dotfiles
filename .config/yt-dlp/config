@@ -1,0 +1,24 @@
+# --- Video and Audio Formats ---
+# Default to best MP4 video + M4A audio
+-f bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]
+
+# Merge into an MP4 container if formats need re-muxing
+--merge-output-format mp4
+
+# --- Subtitles ---
+# Download manual or auto-generated English subtitles
+--write-subs
+--write-auto-sub
+--sub-langs en
+
+# Embed subtitles directly into the MP4 video file
+--embed-subs
+
+# --- Metadata and Visuals ---
+# Embed thumbnail and metadata into the file
+--embed-thumbnail
+--embed-metadata
+
+# --- Output Location ---
+# Default output naming and save location (Downloads folder)
+-o "~/Downloads/%(title)s.%(ext)s"
