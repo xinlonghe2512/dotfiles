@@ -7,6 +7,7 @@ fi
 
 source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 
+eval "$(starship init zsh)"
 
 # Added by Antigravity CLI installer
 export PATH="/home/xinlong/.local/bin:$PATH"
