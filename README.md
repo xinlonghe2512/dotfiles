@@ -1,18 +1,18 @@
-# dotfiles
+# Dotfiles
 
-My personal dotfiles
+My dotfiles, configurations and package list from my personal CachyOS desktop machine.
 
 ## Requirements
 
 Ensure you have the following installed on the system
 
-### Git
+### (1) Git
 
 ```
 pacman -S git
 ```
 
-### Stow
+### (2) Stow
 ```
 pacman -S stow
 ```
